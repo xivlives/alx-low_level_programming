@@ -1,23 +1,26 @@
+
 #include "main.h"
 
 /**
- * main - Prints Holberton as a message.
- *
- * Return: Always 0 (Success)
+ * main - Entry point
+ * Return:0
  */
+
 int main(void)
 {
-	int str[] = {"_putchar"};
+char c[10] = "_putchar";
 
-	int count, sz;
+int i = 0;
 
-	sz = sizeof(str) / sizeof(int);
+while (i < 9)
+{
+_putchar(c[i]);
 
-	for (count = 0; count < sz; count++)
-	{
-		_putchar(str[count]);
-	}
-	_putchar('\n');
+i++;
 
-	return (0);
+}
+_putchar('\n');
+
+return (0);
+
 }
