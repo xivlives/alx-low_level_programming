@@ -1,3 +1,9 @@
+<<<<<<< HEAD
+=======
+#ifndef MAIN_h 
+#define MAIN_h
+
+>>>>>>> efa251f4573fcb1e03d06947724e776c223d76e1
 int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
